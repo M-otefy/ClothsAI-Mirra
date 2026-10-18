@@ -1,9 +1,11 @@
-import { Navbar } from './components/Navbar';
+import { Navbar } from './Navbar';
+import { Hero } from './Hero';
 
 function App() {
   return (
-    <div className="min-vh-100 bg-light">
+    <div style={{ backgroundColor: '#120D0A', minHeight: '100vh' }}>
       <Navbar />
+      <Hero />
     </div>
   );
 }
